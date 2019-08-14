@@ -16,3 +16,9 @@ body{
 h2{
     color:azure;
 }
+.Titulo_Pagina{
+    text-align: center;
+}
+.botonNEXT-SIGUIENTE{
+    font-size: 2em;
+}
