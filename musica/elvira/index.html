@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://192.168.1.5/estilos/estilos.css">
+    <link rel="stylesheet" href="http://192.168.1.5/musica/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg navbar1 py-2">
+        <div class="container ">
+            <a class="navbar-brand mr-5 pr-5" href="#">TV Musica</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item col">
+                        <a class="nav-link" href="../../">PELICULAS <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link" href="../../serie/">SERIES</a>
+                    </li>
+                    <li class="nav-item active col">
+                        <a class="nav-link" href="#">MUSICA</a>
+                    </li>
+                    <li class="nav-item col">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">FOTOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <article>
+        <div class="container mt-5">
+                <div id='player'>
+                    <audio controls='' id='audio' preload='auto' tabindex='0' type='audio/mpeg'>
+                        <source src='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/01-Antu-Fusha-Kushe.mp3' type='audio/mp3' />
+                        Hola, tu navegador no está actualizado y no puede mostrar este contenido.
+                    </audio>
+                </div>
+                <ul id='playlist' class="reproductor">
+                    <li class='active'><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/01-Antu-Fusha-Kushe.mp3'>01 - Antu Fusha Kushe.mp3</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/02-Frutos-Viejos.mp3'>02 - Frutos Viejos</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/03-Caeran.mp3'>03 - Caeran</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/04-Lo-Que-Callan-Las-Abejas.mp3'>04 - Lo Que Callan Las Abejas</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/05-Bosque-De-Poe-Con-Riodelí.mp3'>05 - Bosque De Poe Con Riodeli´</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/06-Censura-Sensorial.mp3'>06 - Censura Sensorial</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/07-Bajo-El-Mismo-Cielo.mp3'>07 - Bajo El Mismo Cielo</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/08-Séptimo-Portal.mp3'>08 - Se´ptimo Portal</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/09-Ojos-De-Barro.mp3'>09 - Ojos De Barro</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/10-Fuente-De-La-Eternidad-Con-Emone-Skillz.mp3'>10 - Fuente De La Eternidad Con Emone Skillz</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/11-Deseo-Ser.mp3'>11 - Deseo Ser</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/12-Causa-Y-Efecto.mp3'>12 - Causa Y Efecto</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/13-Espiritu-En-Transición-Con-Camilo-Zan.mp3'>13 - Espiritu En Transicio´n Con Camilo Zan</a></li>
+                    <li><a href='http://192.168.1.5/musica/marcos/Hijos-de-las-Hojas/14-Camino-De-La-Serpiente.mp3'>14 - Camino De La Serpiente</a></li>   
+                </ul>
+        </div>
+    </article>
+    <script src='http://192.168.1.5/estilos/jquery.min.js' type='text/javascript'></script>
+    <script src="http://192.168.1.5/musica/js.js"></script>
+</body>
+
+</html>
